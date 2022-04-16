@@ -66,7 +66,7 @@ class NumToWords {
                     && nambaYaMbele.length != 5||nafasiZaSifuri == 2)//Kama ni 0 mbele, pata namba kamili kwanza, isipokuwa (maelfu yenye makumi) Au (Mamia)
                     jibu += ' na ' + this.numberToWordsSW(nambaYaMbele).toLowerCase();
                 else//Kama ni zaidi ya 10
-                    jibu += ', ' + this.numberToWordsSW(nambaYaMbele).toLowerCase();
+                    jibu += ' ' + this.numberToWordsSW(nambaYaMbele).toLowerCase();
             }
 
         } else if (nums[0].length == 2 && nums[0] > 0) {//Makumi
