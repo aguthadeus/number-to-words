@@ -1,2 +1,2 @@
 # number-to-words
-Number to words in English and Swahili
+Javascript implementation of number to words in English and Swahili
