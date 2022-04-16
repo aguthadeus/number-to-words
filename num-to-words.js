@@ -14,7 +14,9 @@ class NumToWords {
         if (isNaN(num))
             throw new Error(num + " is not a number");
 
-        return console.log(this['numberToWords' + this.lang.toUpperCase()](num.toFixed(this.accuracy)));
+        const ans=this['numberToWords' + this.lang.toUpperCase()](num.toFixed(this.accuracy));
+        console.log(ans);
+        return ans;
     }
 
     numberToWordsSW(numberStr) {
